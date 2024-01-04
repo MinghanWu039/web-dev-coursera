@@ -1,0 +1,30 @@
+header {
+    margin: 20px 20px 30px 20px;
+    background-color: rgb(38, 38, 235);
+    padding: 10px;
+    color: white;
+}
+
+header a {
+    font-style: italic;
+    font-size: 0.8em;
+    color: white;
+    text-decoration: none;
+}
+
+.container-fluid {
+    margin-left: 20px;
+}
+
+.card {
+    width: 20rem;
+}
+
+.card-hover-effect {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+  
+.card-hover-effect:hover {
+transform: scale(1.05);
+box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
